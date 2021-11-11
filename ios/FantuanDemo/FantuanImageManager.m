@@ -1,29 +1,31 @@
 //
-//  FantuanPhotoViewManager.m
+//  FantuanImageManager.m
 //  FantuanDemo
 //
 //  Created by Ricky on 2021/10/19.
 //
 
-#import "FantuanPhotoViewManager.h"
+#import "FantuanImageManager.h"
 #import <React/RCTUIManager.h>
 #import "FantuanPhotoViewController.h"
 #import "FantuanDemo-Swift.h"
 
-@interface FantuanPhotoViewManager()
+@interface FantuanImageManager()
 
 @property (nonatomic, strong) FantuanPhotoViewController *fantuanPhotoViewController;
 
 @end
 
-@implementation FantuanPhotoViewManager
+@implementation FantuanImageManager
 
 RCT_EXPORT_MODULE()
 
 - (UIView *)view {
-  self.fantuanPhotoViewController = [[FantuanPhotoViewController alloc] init];
-  self.fantuanPhotoViewController.view.backgroundColor = [UIColor redColor];
-  return self.fantuanPhotoViewController.view;
+//  self.fantuanPhotoViewController = [[FantuanPhotoViewController alloc] init];
+//  self.fantuanPhotoViewController.view.backgroundColor = [UIColor redColor];
+  UIView *view = [[UIView alloc] init];
+  view.backgroundColor = [UIColor yellowColor];
+  return view;
 }
 
 RCT_EXPORT_VIEW_PROPERTY(showTitle, NSString)

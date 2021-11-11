@@ -1,5 +1,5 @@
 //
-//  FantuanPhotoViewManager.h
+//  FantuanImageManager.h
 //  FantuanDemo
 //
 //  Created by Ricky on 2021/10/19.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FantuanPhotoViewManager : RCTViewManager<RCTBridgeMethod>
+@interface FantuanImageManager : RCTViewManager<RCTBridgeMethod>
 
 @end
 
