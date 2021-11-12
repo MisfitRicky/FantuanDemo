@@ -121,4 +121,8 @@
   }
 }
 
+- (void)setShowTitle:(NSString *)showTitle {
+  NSLog(@"设置了title%@",showTitle);
+}
+
 @end

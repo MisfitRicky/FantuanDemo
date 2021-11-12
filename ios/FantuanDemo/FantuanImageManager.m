@@ -9,6 +9,7 @@
 #import <React/RCTUIManager.h>
 #import "FantuanPhotoViewController.h"
 #import "FantuanDemo-Swift.h"
+#import "FantuanPhotoCell.h"
 
 @interface FantuanImageManager()
 
@@ -23,13 +24,13 @@ RCT_EXPORT_MODULE()
 - (UIView *)view {
 //  self.fantuanPhotoViewController = [[FantuanPhotoViewController alloc] init];
 //  self.fantuanPhotoViewController.view.backgroundColor = [UIColor redColor];
-  UIView *view = [[UIView alloc] init];
+  FantuanPhotoCell *view = [[FantuanPhotoCell alloc] init];
   view.backgroundColor = [UIColor yellowColor];
   return view;
 }
 
+RCT_EXPORT_VIEW_PROPERTY(url, NSString)
 RCT_EXPORT_VIEW_PROPERTY(showTitle, NSString)
-//RCT_EXPORT_VIEW_PROPERTY(imageUrl, NSString)
 RCT_EXPORT_VIEW_PROPERTY(onRefreshData, RCTBubblingEventBlock)
 
 RCT_EXPORT_METHOD(updateTableView:(NSArray *)models) {

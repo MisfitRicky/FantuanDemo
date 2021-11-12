@@ -14,7 +14,7 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		70C0476DE62B5497F75109A2 /* libPods-FantuanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BE318407FC912F5EA08BDF4 /* libPods-FantuanDemo.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9C2F17512733D23F001D248D /* FantuanImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2F17502733D23F001D248D /* FantuanImage.swift */; };
+		9C2F17512733D23F001D248D /* FantuanImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2F17502733D23F001D248D /* FantuanImageView.swift */; };
 		9C98A18A271EDC6400894F39 /* FantuanImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A189271EDC6400894F39 /* FantuanImageManager.m */; };
 		9C98A225271FF6DE00894F39 /* FantuanPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A224271FF6DE00894F39 /* FantuanPhotoViewController.m */; };
 		9C98A22C271FFE4A00894F39 /* FantuanPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A22B271FFE4A00894F39 /* FantuanPhotoCell.m */; };
@@ -46,7 +46,7 @@
 		907C85C08D9FDF9A2C6EF094 /* libPods-FantuanDemo-FantuanDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FantuanDemo-FantuanDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9231A9722A35A582E21A23C6 /* Pods-FantuanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantuanDemo.release.xcconfig"; path = "Target Support Files/Pods-FantuanDemo/Pods-FantuanDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9C2F174F2733D23E001D248D /* FantuanDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FantuanDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		9C2F17502733D23F001D248D /* FantuanImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FantuanImage.swift; path = FantuanDemo/FantuanImage.swift; sourceTree = "<group>"; };
+		9C2F17502733D23F001D248D /* FantuanImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FantuanImageView.swift; path = FantuanDemo/FantuanImageView.swift; sourceTree = "<group>"; };
 		9C98A188271EDC6400894F39 /* FantuanImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FantuanImageManager.h; path = FantuanDemo/FantuanImageManager.h; sourceTree = "<group>"; };
 		9C98A189271EDC6400894F39 /* FantuanImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FantuanImageManager.m; path = FantuanDemo/FantuanImageManager.m; sourceTree = "<group>"; };
 		9C98A223271FF6DE00894F39 /* FantuanPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FantuanPhotoViewController.h; path = FantuanDemo/FantuanPhotoViewController.h; sourceTree = "<group>"; };
@@ -106,7 +106,7 @@
 				9C98A224271FF6DE00894F39 /* FantuanPhotoViewController.m */,
 				9C98A22A271FFE4A00894F39 /* FantuanPhotoCell.h */,
 				9C98A22B271FFE4A00894F39 /* FantuanPhotoCell.m */,
-				9C2F17502733D23F001D248D /* FantuanImage.swift */,
+				9C2F17502733D23F001D248D /* FantuanImageView.swift */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -433,7 +433,7 @@
 				9C98A22C271FFE4A00894F39 /* FantuanPhotoCell.m in Sources */,
 				9C98A225271FF6DE00894F39 /* FantuanPhotoViewController.m in Sources */,
 				9C98A18A271EDC6400894F39 /* FantuanImageManager.m in Sources */,
-				9C2F17512733D23F001D248D /* FantuanImage.swift in Sources */,
+				9C2F17512733D23F001D248D /* FantuanImageView.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);

@@ -1,7 +1,8 @@
 import React, {Component} from "react";
 import { requireNativeComponent } from "react-native";
+import PropTypes from 'prop-types';
 
-var FantuanImage = requireNativeComponent("FantuanImage", null);
+const FantuanImage = requireNativeComponent("FantuanImage", null);
 
 export default class FantuanImageView extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class FantuanImageView extends Component {
   }
 }
 
-FantuanImageView.PropTypes = {
-
+FantuanImageView.propTypes = {
+  url: PropTypes.string,
+  showTitle: PropTypes.string,
 }

@@ -11,6 +11,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface FantuanPhotoCell : UITableViewCell
 
+@property (nonatomic, copy) NSString *showTitle;
+
 - (void)updateViewWithUrl:(NSString *)imageUrl;
 
 @end
