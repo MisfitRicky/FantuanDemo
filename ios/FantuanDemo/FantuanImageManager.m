@@ -14,7 +14,7 @@
 @interface FantuanImageManager()
 
 @property (nonatomic, strong) FantuanPhotoViewController *fantuanPhotoViewController;
-
+@property (nonatomic, strong) FantuanImageView *fantuanImageView;
 @end
 
 @implementation FantuanImageManager
@@ -24,9 +24,9 @@ RCT_EXPORT_MODULE()
 - (UIView *)view {
 //  self.fantuanPhotoViewController = [[FantuanPhotoViewController alloc] init];
 //  self.fantuanPhotoViewController.view.backgroundColor = [UIColor redColor];
-  FantuanPhotoCell *view = [[FantuanPhotoCell alloc] init];
-  view.backgroundColor = [UIColor yellowColor];
-  return view;
+  self.fantuanImageView = [[FantuanImageView alloc] init];
+  self.fantuanImageView.backgroundColor = [UIColor yellowColor];
+  return self.fantuanImageView;
 }
 
 RCT_EXPORT_VIEW_PROPERTY(url, NSString)

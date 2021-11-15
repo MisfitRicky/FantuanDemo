@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FantuanImageManager : RCTViewManager<RCTBridgeMethod>
+@interface FantuanImageManager : RCTViewManager
 
 @end
 

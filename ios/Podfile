@@ -8,7 +8,8 @@ target 'FantuanDemo' do
   pod 'SDWebImage', '~> 5.0'
   pod 'Masonry'
   pod 'MJRefresh'
-  pod 'Nuke', :git => 'https://github.com/kean/Nuke', :branch => 'master'
+  pod 'FantuanImage', :git => 'http://website.nerdlinux.com:8093/frontend/ios-components/fantuanimage.git',:modular_headers => true
+#  pod 'FantuanImage', :path => '/Users/ricky/Desktop/Fantuan/FantuanImage', :modular_headers => true
   
   config = use_native_modules!
 
@@ -17,6 +18,8 @@ target 'FantuanDemo' do
     # to enable hermes on iOS, change `false` to `true` and then install pods
     :hermes_enabled => false
   )
+  
+
 
   target 'FantuanDemoTests' do
     inherit! :complete

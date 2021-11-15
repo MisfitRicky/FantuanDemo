@@ -14,5 +14,4 @@ export default class FantuanImageView extends Component {
 
 FantuanImageView.propTypes = {
   url: PropTypes.string,
-  showTitle: PropTypes.string,
 }
