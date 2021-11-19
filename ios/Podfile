@@ -9,7 +9,7 @@ target 'FantuanDemo' do
   pod 'SDWebImage', '~> 5.0'
   pod 'Masonry'
   pod 'MJRefresh'
-  pod 'FantuanImage', :git => 'http://website.nerdlinux.com:8093/frontend/ios-components/fantuanimage.git',:modular_headers => true
+  pod 'FantuanImage', :git => 'https://develop.dianpings.com/gitlab/frontend/fantuanimage.git',:modular_headers => true
 #  pod 'FantuanImage', :path => '/Users/ricky/Desktop/Fantuan/FantuanImage', :modular_headers => true
   
   config = use_native_modules!
