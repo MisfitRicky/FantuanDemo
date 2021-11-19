@@ -13,10 +13,6 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3A1CB482E1ADC7540A02CD87 /* libPods-FantuanDemo-FantuanDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F7C7CCC8780A31803570560 /* libPods-FantuanDemo-FantuanDemoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		9C2F17512733D23F001D248D /* FantuanImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C2F17502733D23F001D248D /* FantuanImageView.swift */; };
-		9C98A18A271EDC6400894F39 /* FantuanImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A189271EDC6400894F39 /* FantuanImageManager.m */; };
-		9C98A225271FF6DE00894F39 /* FantuanPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A224271FF6DE00894F39 /* FantuanPhotoViewController.m */; };
-		9C98A22C271FFE4A00894F39 /* FantuanPhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C98A22B271FFE4A00894F39 /* FantuanPhotoCell.m */; };
 		CC6F9924BD448FDD975F4893 /* libPods-FantuanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A0D5C4DE084525376E8712DA /* libPods-FantuanDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -45,13 +41,6 @@
 		8F7C7CCC8780A31803570560 /* libPods-FantuanDemo-FantuanDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FantuanDemo-FantuanDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9231A9722A35A582E21A23C6 /* Pods-FantuanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantuanDemo.release.xcconfig"; path = "Target Support Files/Pods-FantuanDemo/Pods-FantuanDemo.release.xcconfig"; sourceTree = "<group>"; };
 		9C2F174F2733D23E001D248D /* FantuanDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FantuanDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		9C2F17502733D23F001D248D /* FantuanImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FantuanImageView.swift; path = FantuanDemo/FantuanImageView.swift; sourceTree = "<group>"; };
-		9C98A188271EDC6400894F39 /* FantuanImageManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FantuanImageManager.h; path = FantuanDemo/FantuanImageManager.h; sourceTree = "<group>"; };
-		9C98A189271EDC6400894F39 /* FantuanImageManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FantuanImageManager.m; path = FantuanDemo/FantuanImageManager.m; sourceTree = "<group>"; };
-		9C98A223271FF6DE00894F39 /* FantuanPhotoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FantuanPhotoViewController.h; path = FantuanDemo/FantuanPhotoViewController.h; sourceTree = "<group>"; };
-		9C98A224271FF6DE00894F39 /* FantuanPhotoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FantuanPhotoViewController.m; path = FantuanDemo/FantuanPhotoViewController.m; sourceTree = "<group>"; };
-		9C98A22A271FFE4A00894F39 /* FantuanPhotoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = FantuanPhotoCell.h; path = FantuanDemo/FantuanPhotoCell.h; sourceTree = "<group>"; };
-		9C98A22B271FFE4A00894F39 /* FantuanPhotoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = FantuanPhotoCell.m; path = FantuanDemo/FantuanPhotoCell.m; sourceTree = "<group>"; };
 		A0D5C4DE084525376E8712DA /* libPods-FantuanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FantuanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE3C3A30018585B9392CD467 /* Pods-FantuanDemo-FantuanDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FantuanDemo-FantuanDemoTests.release.xcconfig"; path = "Target Support Files/Pods-FantuanDemo-FantuanDemoTests/Pods-FantuanDemo-FantuanDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
@@ -100,13 +89,6 @@
 			children = (
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				9C98A188271EDC6400894F39 /* FantuanImageManager.h */,
-				9C98A189271EDC6400894F39 /* FantuanImageManager.m */,
-				9C98A223271FF6DE00894F39 /* FantuanPhotoViewController.h */,
-				9C98A224271FF6DE00894F39 /* FantuanPhotoViewController.m */,
-				9C98A22A271FFE4A00894F39 /* FantuanPhotoCell.h */,
-				9C98A22B271FFE4A00894F39 /* FantuanPhotoCell.m */,
-				9C2F17502733D23F001D248D /* FantuanImageView.swift */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
@@ -290,11 +272,9 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FantuanDemo-FantuanDemoTests/Pods-FantuanDemo-FantuanDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FantuanDemo-FantuanDemoTests/Pods-FantuanDemo-FantuanDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -307,11 +287,9 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FantuanDemo/Pods-FantuanDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FantuanDemo/Pods-FantuanDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -346,11 +324,9 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FantuanDemo-FantuanDemoTests/Pods-FantuanDemo-FantuanDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FantuanDemo-FantuanDemoTests/Pods-FantuanDemo-FantuanDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,11 +339,9 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FantuanDemo/Pods-FantuanDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-FantuanDemo/Pods-FantuanDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -430,10 +404,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C98A22C271FFE4A00894F39 /* FantuanPhotoCell.m in Sources */,
-				9C98A225271FF6DE00894F39 /* FantuanPhotoViewController.m in Sources */,
-				9C98A18A271EDC6400894F39 /* FantuanImageManager.m in Sources */,
-				9C2F17512733D23F001D248D /* FantuanImageView.swift in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
@@ -454,7 +424,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FE398ACD5C73DF6770D64F6E /* Pods-FantuanDemo-FantuanDemoTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -482,7 +451,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CE3C3A30018585B9392CD467 /* Pods-FantuanDemo-FantuanDemoTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = FantuanDemoTests/Info.plist;

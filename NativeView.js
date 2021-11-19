@@ -20,5 +20,6 @@ export default class FantuanPhotoView extends Component<Props> {
 
 FantuanPhotoView.PropTypes = {
     showTitle: PropTypes.String,
+    require: Any,
  onRefreshData: PropTypes.func,
 }

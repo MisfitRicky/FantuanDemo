@@ -2,6 +2,7 @@ require_relative '../node_modules/react-native/scripts/react_native_pods'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
 platform :ios, '11.0'
+install! 'cocoapods', :disable_input_output_paths => true
 
 target 'FantuanDemo' do
   
@@ -18,8 +19,6 @@ target 'FantuanDemo' do
     # to enable hermes on iOS, change `false` to `true` and then install pods
     :hermes_enabled => false
   )
-  
-
 
   target 'FantuanDemoTests' do
     inherit! :complete
@@ -32,8 +31,8 @@ target 'FantuanDemo' do
   # you should disable the next line.
   use_flipper!()
 
-  post_install do |installer|
+ post_install do |installer|
+    flipper_post_install(installer)
     react_native_post_install(installer)
-    __apply_Xcode_12_5_M1_post_install_workaround(installer)
   end
 end

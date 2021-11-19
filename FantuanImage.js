@@ -2,9 +2,10 @@ import React, {Component} from "react";
 import { requireNativeComponent } from "react-native";
 import PropTypes from 'prop-types';
 
-const FantuanImage = requireNativeComponent("FantuanImage", null);
+const FantuanImage = requireNativeComponent("FantuanImageView", null);
 
 export default class FantuanImageView extends Component {
+
   render() {
     return (
       <FantuanImage {...this.props} />
@@ -13,5 +14,12 @@ export default class FantuanImageView extends Component {
 }
 
 FantuanImageView.propTypes = {
-  url: PropTypes.string,
+  source: PropTypes.string,
+  defaultSource: PropTypes.any,
+  onLoadStart: PropTypes.func,
+  onError: PropTypes.func,
+  onLoad: PropTypes.func,
+  resizeMode: PropTypes.number,
+  testID: PropTypes.string,
+  accessibilityLabelRN: PropTypes.string
 }
