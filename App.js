@@ -1,5 +1,6 @@
 import React, { Component, useState } from 'react';
 import FantuanImage from './FantuanImage';
+import FantuanBannerView from './FantuanBannerView'
 import ReactNative, {
     requireNativeComponent,
     AppRegistry,
@@ -63,7 +64,7 @@ export default class ReactNativeCustomUIDemo extends Component {
 
                 <FantuanImage 
                 defaultSource={resolvedImage}
-                url={'https://cdn.shibe.online/shibes/a66cb222b58f2ebf27c21e543424f4956b088a92.jepg'}
+                source={'https://dpdev.fantuan.ca:18081/headurl/486792'}
                 style={{width:100,height:100}}
                 resizeMode={FantuanManager.cover}
                 onLoadStart={() => console.warn("start")}
@@ -74,11 +75,24 @@ export default class ReactNativeCustomUIDemo extends Component {
 
                 <FantuanImage 
                 defaultSource={resolvedImage}
-                url={'https://cdn.shibe.online/shibes/a66cb222b58f2ebf27c21e543424f4956b088a92.jpg'}
+                source={'https://cdn.shibe.online/shibes/a66cb222b58f2ebf27c21e543424f4956b088a92.jpg'}
                 style={{width:100,height:100}} 
                 resizeMode={FantuanManager.contain}
                 >
                 </FantuanImage>
+
+                <FantuanBannerView
+                style={{width:100,height:100}}
+                bannerDataSource={[{'imageUrl' : 'https://dpdev.fantuan.ca:18081/headurl/486792', 'scheme' : 'testScheme'}, {'imageUrl' : 'https://cdn.shibe.online/shibes/a66cb222b58f2ebf27c21e543424f4956b088a92.jpg', 'scheme' : 'testScheme'}]}
+                // loopTime={2000}
+                // autoLoop={true}
+                // bannerRound={8}
+                // currentIndex={1}
+                // pageControlHidden={true}
+                onItemClick={(body) => console.warn(body)}
+                >
+                </FantuanBannerView>
+
                 <Text style={styles.text} onPress={this.getCacheSizeAction}>Test</Text>
                 
             </View>

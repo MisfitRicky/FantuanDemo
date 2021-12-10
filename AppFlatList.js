@@ -35,7 +35,7 @@ const Item = ({ url, index }) => (
         // source={{uri:'https://cdn.shibe.online/shibes/a66cb222b58f2ebf27c21e543424f4956b088a92.jpg'}}
         style={{width:100,height:100}}
       /> */}
-    <FantuanImage
+    {/* <FantuanImage
       defaultSource={defaultResolvedImage}
       failureSource={failureResolvedImage}
       source={url}
@@ -44,8 +44,9 @@ const Item = ({ url, index }) => (
       onLoadStart={() => console.warn("start")}
       onLoad={() => console.warn("onLoad")}
       onError={(error) => console.warn("error")}
-      
-    />
+      testID={"testID"}
+      accessibilityLabelRN={"accessibilityLabelRN"}
+    /> */}
     <Text style={styles.title}>{index}</Text>
   </View>
 )

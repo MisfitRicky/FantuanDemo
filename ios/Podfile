@@ -10,7 +10,9 @@ target 'FantuanDemo' do
   pod 'Masonry'
   pod 'MJRefresh'
   pod 'FantuanImage', :git => 'https://develop.dianpings.com/gitlab/frontend/fantuanimage.git',:modular_headers => true
+  pod 'FantuanBannerView', :git => 'https://develop.dianpings.com/gitlab/frontend/fantuanbannerView.git'
 #  pod 'FantuanImage', :path => '/Users/ricky/Desktop/Fantuan/FantuanImage', :modular_headers => true
+#  pod 'FantuanBannerView', :path => '/Users/ricky/Desktop/Fantuan/FantuanBannerView'
   
   config = use_native_modules!
 
