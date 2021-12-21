@@ -21,5 +21,6 @@ FantuanImageView.propTypes = {
   onLoad: PropTypes.func,
   resizeMode: PropTypes.number,
   testID: PropTypes.string,
-  accessibilityLabelRN: PropTypes.string
+  accessibilityLabelRN: PropTypes.string,
+  cornerRadius: PropTypes.number,
 }

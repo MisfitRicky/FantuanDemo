@@ -68,6 +68,7 @@ export default class ReactNativeCustomUIDemo extends Component {
                 style={{width:100,height:100}}
                 resizeMode={FantuanManager.cover}
                 onLoadStart={() => console.warn("start")}
+                cornerRadius={30}
                 onLoad={() => console.warn("onLoad")}
                 onError={(error) => console.warn("error")}
                 >
